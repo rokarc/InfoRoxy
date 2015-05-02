@@ -1,0 +1,164 @@
+/*commoninfo.css*/
+html, body{
+    height: 100%
+    margin: 0;
+    pandding: 0;
+}
+
+body{
+    background-color: #FFC0C0
+
+}
+
+
+.sidebar{
+    color: #000;
+    background-color: #FFE207;
+    display: block;
+    height:10%;
+    width: 30%;
+    float: left;
+}
+
+.header {
+    color: #FFF;
+    background-color: #8097FF;
+    display: block;
+    /*font-family: */
+    font-size: 30px;
+    float: right;
+    height:20%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.newsletter{
+    color: #FFF;
+    background-color: #FF1C68;
+    display: block;
+    height:10%;
+    width: 30%;
+    float: right;
+}
+
+.nav {
+    display: inline;
+    font-size: 15px;
+    text-align: center;
+}
+
+.nav a {
+    color: #FFF;
+}
+
+.article1 a, .article2 a, .article3 a {
+    color: #000;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    float: left;
+    height: 40px;
+    width: 100%;
+    margin: 2px;
+    padding-top: 1em;
+}
+
+.article1 {
+    background-color: #FFF8097FF;
+    color: black;
+    font-weight: normal;
+    font-size: 20px;
+    height: 40%;
+    margin: 3px;
+    width: 100%;
+}
+
+.article2 {
+    background-color: #FFF8097FF;
+    color: black;
+    font-weight: normal;
+    font-size: 10px;
+    height:40%;
+    margin: 3px;
+    width: 30%;
+    position: relative;
+    left: 0;
+ }
+
+.article3 {
+    background-color: #FFF8097FF;
+    color: black;
+    font-weight: normal;
+    font-size: 10px;
+    height:40%;
+    margin: 3px;
+    width: 70%;
+    position: relative;
+    right: 0;
+}
+
+.publicity {
+    color: black;
+    font-weight: normal;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.listasmenu {
+    fontcolor: #000;
+    display: list;
+}
+
+#p1{
+    color: orange;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#p2{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.lineanegra {
+    background-color: black;
+    color: black;
+    height: 3px;
+}
+
+
+.lineanaranja1{
+    background-color: #FF8000;
+    color: orange;
+    height: 3px;
+    width: 97%
+}
+
+.lineanaranja2{
+    background-color: #FF8000;
+    color: #FF8000;
+    height: 3px;
+
+    width: 245px;
+}
+
+.lineanaranja3{
+    background-color: #FF8000;
+    color: #FF8000;
+    height: 3px;
+    width: 540px;
+}
+
+.ularticle {
+display: inline-flex;
+}
+
+
+
+
+/*#\31 319 > div:nth-child(1) > article:nth-child(1) > div:nth-child(4) > div:nth-child(4) > div:nth-child(1) > figure:nth-child(1) > img:nth-child(1)*/
