@@ -1,0 +1,19 @@
+.div pub-h-r {
+    left: 10px;
+    position: absolute;
+    top: 20px;
+}
+
+.div pub-h-c {
+    display: block;
+    height: 60px;
+    margin: 0px auto 10px;
+    text-indent: -9999em;
+    width: 260px;
+}
+
+.div pub-h-l {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
