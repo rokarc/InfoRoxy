@@ -7,6 +7,8 @@ html, body{
 
 body{
     background-color: #FFF;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    font-size: 20px;
 
 }
 
@@ -23,9 +25,10 @@ body{
 .header {
     color: #FFF;
     background-color: #FFF;
-    display: block;
+    display: inline;
     float: right;
-    height:20%;
+    /*height:20%;*/
+    text-align: center;
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
@@ -35,7 +38,7 @@ body{
 
 .newsletter{
     color: #FFF;
-    background-color: #FF1C68;
+    background-color: #FFF;
     display: block;
     height:10%;
     width: 30%;
@@ -43,13 +46,19 @@ body{
 }
 
 .nav {
+    color: black;
     display: inline;
     font-size: 15px;
     text-align: center;
 }
 
 .nav a {
-    color: #FFF;
+    color: black;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    /*font-weight: 700;*/
+    line-height: 1.2;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
 }
 
 .article1 a, .article2 a, .article3 a {
@@ -57,9 +66,12 @@ body{
 }
 
 .footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #FFF;
+    color: black;
     float: left;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    left: 0;
     height: 40px;
     width: 100%;
     margin: 2px;
@@ -107,12 +119,10 @@ body{
     text-align: center;
 }
 
-.perfume {
+.auto {
     background-attachment: fixed;
     color: black;
-    font-weight: normal;
-    margin-left: 0%;
-    text-align: center;
+
 }
 
 .listasmenu {
@@ -165,6 +175,16 @@ body{
 .ularticle {
 display: inline-flex;
 }
+
+.buscar {
+    width: 55%
+}
+
+.enviar {
+    width: 25%
+}
+
+
 
 @media screen and (max-width: 790px;) { /* IPAD */
     .nav a { display: none;

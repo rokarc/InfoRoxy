@@ -1,19 +1,9 @@
-.div pub-h-r {
-    left: 10px;
-    position: absolute;
-    top: 20px;
+.logoinfobae {
+    padding-left:       7%;
+    padding-right:      7%;
 }
 
-.div pub-h-c {
-    display: block;
-    height: 60px;
-    margin: 0px auto 10px;
-    text-indent: -9999em;
-    width: 260px;
-}
-
-.div pub-h-l {
-    position: absolute;
-    right: 10px;
-    top: 20px;
+.logoinfobae-pie {
+    padding-left:       0;
+    padding-right:      15%;
 }
