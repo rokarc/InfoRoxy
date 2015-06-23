@@ -12,6 +12,9 @@ body{
 
 }
 
+.img-borde {
+    border: 1px solid black;
+}
 
 .sidebar{
     color: #000;
@@ -27,7 +30,6 @@ body{
     background-color: #FFF;
     display: inline;
     float: right;
-    /*height:20%;*/
     text-align: center;
     width: 100%;
     padding-left: 10px;
@@ -50,6 +52,8 @@ body{
     display: inline;
     font-size: 15px;
     text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid gray;
 }
 
 .nav a {
@@ -142,6 +146,17 @@ body{
     font-size: 15px;
     padding: 2px;
 }
+
+.p3 {
+    color: gray;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    line-height: 1.2;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    text-align: center;
+}
+
 /*
 .lineanegra {
     border-top: 0;
