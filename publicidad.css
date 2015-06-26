@@ -1,11 +1,27 @@
+.publicity {
+    color: black;
+    font-weight: normal;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.auto img {
+    background-attachment: fixed;
+    color: black;
+    height:180px;
+    width:200px;
+}
+
 .logoinfobae {
     padding-left:       7%;
     padding-right:      7%;
 }
 
 .logoinfobae-pie {
+    height:30px
     padding-left:       0;
     padding-right:      15%;
+    width:110px;
 }
 
 .pubcabecera {
@@ -16,3 +32,33 @@
     right:              60px;
 
 }
+
+.divpub {
+    padding-left:       0;
+    padding-right:      0;
+    margin-top:         10px;
+    margin-bottom:      2px;
+    border-top: 1px solid #C0B5D2;
+}
+
+#pubfija {
+    margin-right: -720px;
+    top: 10%;
+    right: 50%;
+    width:15em;
+    height:18em;
+    /*margin-top: -1em; /*set to a negative number 1/2 of your height
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 0;
+    /*background-color: transparent;*/
+    position:fixed;
+}
+
+/* Ejemplo de infobae
+pub.hevent300 {
+    margin-right: -720px;
+    position: fixed;
+    top: 76px;
+    right: 50%;
+}*/
+

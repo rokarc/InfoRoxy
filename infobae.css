@@ -1,0 +1,62 @@
+/*para refresca, tipo F5, el doc cada treinta seg
+ * <meta http-equiv="refresh" content="30">
+ */
+
+
+#wrapper {
+    background-color: #FFF;
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    min-height: 1300px;
+}
+
+
+#wrapper-noticias {
+    background-color: #AED2D0;
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-height: 800px;
+}
+
+
+#contenidoppal {
+    width: 70%;
+    height: 650px;
+    background-color: #0ff;
+    float: left;
+    min-height: 1250px;
+}
+
+
+
+
+#cabecera {
+    border-color: gray;
+    display: inline;
+    color: gray;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    top: 0;
+    left: 0%;
+    width: 100% !important;
+    height: 35px;
+    background-color: white;
+    position:fixed;
+    padding-left: 21%;
+    padding-right: 10%;
+    z-index: 10000;
+}
+
+
+
+.clear {
+    clear: both;
+}
