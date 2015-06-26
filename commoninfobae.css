@@ -92,6 +92,7 @@ body{
 }*/
 
 
+
 .conectate {
     background-color: gray;
     border-radius: 40px;
@@ -117,21 +118,11 @@ body{
     height: 2px;
     line-height: 10px;
     margin-right: 1px;
-    margin-left: 1px;
+    margin-left: 200px;
     text-align: center;
     width: 2px;
     height: 2px;
 }
-
-
-
-
-
-
-/*<ul class="s-d post-t5r5">
-    <li class="tw"><li>
-        <a class="twitterButtonHeader" target="_blank" href="http://twitter.com"></a>
-*/
 
 
 #hcont .date-time .s-d {
@@ -186,8 +177,9 @@ width: 16px;
     color: black;
     font-weight: normal;
     font-size: 20px;
-    height: 40%;
+    height: 25%;
     margin: 3px;
+    padding-left: 5px;
     width: 100%;
 }
 
@@ -196,11 +188,11 @@ width: 16px;
     color: black;
     font-weight: normal;
     font-size: 10px;
-    /*height:40%;*/
-    /*margin: 3px;*/
-    width: 30%;
+    height: 25%
+    padding-left: 22px;
+    padding-left: 22px;
     position: relative;
-    /*left: 0;*/
+    width: 30%;
  }
 
 .article2 {
@@ -208,7 +200,7 @@ width: 16px;
     color: black;
     font-weight: normal;
     font-size: 10px;
-    /*height:40%;*/
+    height: 25%
     margin: 3px;
     width: 65%;
     position: relative;
@@ -225,7 +217,7 @@ width: 16px;
 .tit-art2 {
     width: 100%;
     height: 100%;
-    border-top: 1px solid #FF8000;
+    border-top: 2px solid #FF8000;
     border-bottom: 1px solid #FFDCA8;
     padding-top: 3px;
     padding-bottom: 7px;
@@ -236,19 +228,18 @@ width: 16px;
     height:70%;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
     width:100%;
 }
-
-
-
 
 .tit-art3 {
     width: 100%;
     height: 100%;
-    border-top: 1px solid #FF8000;
+    border-top: 2px solid #FF8000;
     border-bottom: 1px solid #FFDCA8;
     padding-top: 3px;
     padding-bottom: 7px;
+
 }
 
 .img-noticias3 {
@@ -271,8 +262,8 @@ width: 16px;
 
 .p1 {
     color: black;
-    font-family: "Lato",Arial,Helvetica,sans-serif;
     font-weight: bold;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
     font-size: 22px;
     padding: 11px;
 }
@@ -313,16 +304,11 @@ width: 16px;
     border-left: 0;
     border-right: 0;
     bottom: -1px;
-    /*left: 53%;*/
-    /*position: absolute;
-     text-trans25*form: capitalize;*/
 }
 
-
-
-
 .parranoti {
-    display: inline;
+    display: inline-flex;
+    padding: 2px;
 }
 
 .ularticle {
