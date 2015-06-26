@@ -41,7 +41,6 @@ body{
 
 }
 
-
 .newsletter{
     color: #FFF;
     background-color: #FFF;
@@ -64,15 +63,11 @@ body{
     border-bottom: 1px solid #CCCED8;
     color: black;
     font-family: "Lato",Arial,Helvetica,sans-serif;
-    /*font-weight: 700;*/
     line-height: 1.2;
     padding-left: 1.3em;
     padding-right: 1.3em;
     padding-bottom: 6px;
     padding-top: 6px;
-
-
-
 }
 
 /*.div-titulo {
@@ -91,8 +86,6 @@ body{
     margin-left: 1px;
 }*/
 
-
-
 .conectate {
     background-color: gray;
     border-radius: 40px;
@@ -108,7 +101,6 @@ body{
     height: 2px;
 }
 
-
 .rsoc {
     background-color: gray;
     border-radius: 100px;
@@ -123,7 +115,6 @@ body{
     width: 2px;
     height: 2px;
 }
-
 
 #hcont .date-time .s-d {
 position: static;
@@ -145,8 +136,6 @@ padding-left: 0px;
 height: 16px;
 width: 16px;
 }
-
-
 
 .div-bolas {
     padding: 90px;
@@ -183,6 +172,19 @@ width: 16px;
     width: 100%;
 }
 
+.article2 {
+    background-color: #FFF8097FF;
+    color: black;
+    font-weight: normal;
+    font-size: 10px;
+    height: 25%
+    margin: 3px;
+    width: 65%;
+    padding-left: 5px;
+    position: relative;
+    right: 0;
+}
+
 .article3 {
     background-color: #FFF8097FF;
     color: black;
@@ -195,17 +197,6 @@ width: 16px;
     width: 30%;
  }
 
-.article2 {
-    background-color: #FFF8097FF;
-    color: black;
-    font-weight: normal;
-    font-size: 10px;
-    height: 25%
-    margin: 3px;
-    width: 65%;
-    position: relative;
-    right: 0;
-}
 
 /* ############# CUERPO DE NOTICIAS ##################### */
 
@@ -219,6 +210,7 @@ width: 16px;
     height: 100%;
     border-top: 2px solid #FF8000;
     border-bottom: 1px solid #FFDCA8;
+    padding-left: 13px;
     padding-top: 3px;
     padding-bottom: 7px;
 }
@@ -237,7 +229,7 @@ width: 16px;
     height: 100%;
     border-top: 2px solid #FF8000;
     border-bottom: 1px solid #FFDCA8;
-    padding-top: 3px;
+    padding-top: 10px;
     padding-bottom: 7px;
 
 }
@@ -249,8 +241,6 @@ width: 16px;
     padding-bottom: 10px;
     width:100%;
 }
-
-
 
 .p2{
     color: black;
@@ -285,7 +275,6 @@ width: 16px;
     padding-right: 1.3em;
     text-align: center;
     padding-bottom: 7px;
-
 }
 
 #link3 {
