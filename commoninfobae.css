@@ -16,6 +16,8 @@ body{
 
 .img-borde {
     border: 1px solid black;
+    height:70px;
+    width:150px;
 }
 
 .sidebar{
@@ -59,12 +61,18 @@ body{
 }
 
 .nav a {
+    border-bottom: 1px solid #CCCED8;
     color: black;
     font-family: "Lato",Arial,Helvetica,sans-serif;
     /*font-weight: 700;*/
     line-height: 1.2;
     padding-left: 1.3em;
     padding-right: 1.3em;
+    padding-bottom: 6px;
+    padding-top: 6px;
+
+
+
 }
 
 .div-titulo {
