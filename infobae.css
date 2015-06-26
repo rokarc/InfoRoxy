@@ -40,12 +40,12 @@
 
 #cabecera {
     border-color: gray;
-    display: inline;
+    display: inline-flex;
     color: gray;
     font-family: "Lato",Arial,Helvetica,sans-serif;
     font-size: 15px;
     top: 0;
-    left: 0%;
+    left: -50px;
     width: 100% !important;
     height: 35px;
     background-color: white;
