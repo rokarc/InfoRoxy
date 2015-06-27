@@ -197,6 +197,29 @@ width: 16px;
     width: 30%;
  }
 
+  .article4 {
+    background-color: #FFF8097FF;
+    color: black;
+    font-weight: normal;
+    font-size: 10px;
+    height: 25%
+    padding-left: 22px;
+    padding-left: 0px;
+    position: relative;
+    width: 30%;
+    top: 3px;
+  }
+
+  .article-video {
+      background-color: #FFF8097FF;
+      color: black;
+      font-weight: normal;
+      font-size: 15Spx;
+      height: 25%;
+      margin: 3px;
+      padding-left: 5px;
+      width: 96%;
+  }
 
 /* ############# CUERPO DE NOTICIAS ##################### */
 
@@ -221,7 +244,7 @@ width: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    width:100%;
+width:100%;
 }
 
 .tit-art3 {
@@ -231,10 +254,43 @@ width: 16px;
     border-bottom: 1px solid #FFDCA8;
     padding-top: 10px;
     padding-bottom: 7px;
-
 }
 
 .img-noticias3 {
+    /*border: 1px solid black;*/
+    height:70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+}
+
+.tit-art4 {
+    width: 80%;
+    height: 100%;
+    border-top: 2px solid #FF8000;
+    border-bottom: 1px solid #FFDCA8;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.img-noticias4 {
+    /*border: 1px solid black;*/
+    height:70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+}
+
+.tit-video {
+    width: 93%;
+    height: 100%;
+    border-top: 2px solid #FF8000;
+    border-bottom: 1px solid #FFDCA8;
+    padding-top: 0px;
+    padding-bottom: 4px;
+}
+
+.img-video {
     /*border: 1px solid black;*/
     height:70%;
     padding-top: 10px;
@@ -298,6 +354,8 @@ width: 16px;
 .parranoti {
     display: inline-flex;
     padding: 2px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .ularticle {
