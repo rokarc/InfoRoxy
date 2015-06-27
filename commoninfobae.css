@@ -64,28 +64,12 @@ body{
     color: black;
     font-family: "Lato",Arial,Helvetica,sans-serif;
     line-height: 1.2;
-    paddi19pxng-left: 1.3em;
+    padding-left: 1.3em;
     padding-right: 1.3em;
     padding-bottom: 6px;
     padding-top: 6px;
 }
 
-/*.div-titulo {
-    font-size: 10px;
-    color: white;
-    background-color: gray;
-    display: inline;
-    text-align: center;
-    width: 2px;
-    height: 2px;
-    /*cursor: pointer;*/
-    line-height: 10px;
-    border-radius: 100px;
-    /*transition: background-color 0.5s ease;*/
-    margin-right: 1px;
-    margin-left: 1px;
-}*/
-    19px
 .conectate {
     background-color: gray;
     border-radius: 40px;
@@ -106,14 +90,18 @@ body{
     border-radius: 100px;
     color: white;
     display: inline-table;
-    font-size: 10px;
+    font-size: 12px;
     height: 2px;
     line-height: 10px;
     margin-right: 6px;
     margin-left: 0;
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 8px;
     text-align: center;
     width: 2px;
     height: 2px;
+    text-decoration: none;
 }
 
 .rsoc-t {
@@ -121,36 +109,20 @@ body{
     border-radius: 100px;
     color: white;
     display: inline-table;
-    font-size: 10px;
+    font-size: 12px;
     height: 2px;
     line-height: 10px;
     margin-right: 6px;
     margin-left: 88px;
+    padding: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
     text-align: center;
     width: 2px;
     height: 2px;
+    text-decoration: none;
 }
 
-#hcont .date-time .s-d {
-position: static;
-}
-
-.pos-t5r5 {
-top: 5px;
-right: 5px;
-z-index: 2;
-}
-
-#hcont .date-time li:first-child {
-border-left: medium none;
-margin-left: 0px;
-padding-left: 0px;
-}
-
-#hcont .s-d li a {
-height: 16px;
-width: 16px;
-}
 
 .div-bolas {
     padding: 90px;
@@ -159,8 +131,8 @@ width: 16px;
     width: 100%*/
 }
 
-.article1 a, .article2 a, .article3 a {
-    color: #000;
+.article1 a, .article2 a, .article3 a, .article4 a, .article-video a {
+    color: black;
 }
 
 .footer {
@@ -221,7 +193,7 @@ width: 16px;
     padding-left: 22px;
     padding-left: 0px;
     position: relative;
-    width: 30%;
+    width: 35%;
     top: 3px;
   }
 
@@ -233,7 +205,7 @@ width: 16px;
     height: 25%;
     margin: 3px;
     padding-left: 5px;
-    width: 96%;
+    width: 87%;
   }
 
 /* ############# CUERPO DE NOTICIAS ##################### */
@@ -249,7 +221,7 @@ width: 16px;
     border-top: 2px solid #FF8000;
     border-bottom: 1px solid #FFDCA8;
     padding-left: 13px;
-    padding-top: 3px;
+    padding-top: 10px;
     padding-bottom: 7px;
 }
 
@@ -297,7 +269,7 @@ width:100%;
 }
 
 .tit-video {
-    width: 93%;
+    width: 97%;
     height: 100%;
     border-top: 2px solid #FF8000;
     border-bottom: 1px solid #FFDCA8;
@@ -317,7 +289,7 @@ width:100%;
     color: black;
     /*font-weight: bold;*/
     font-family: "Lato",Arial,Helvetica,sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     padding: 9px;
 }
 
@@ -325,7 +297,7 @@ width:100%;
     color: black;
     font-weight: bold;
     font-family: "Lato",Arial,Helvetica,sans-serif;
-    font-size: 22px;
+    font-size: 16px;
 padding: 11px;
 }
 
@@ -375,6 +347,7 @@ padding-bottom: 7px;
 
 .ularticle {
     display: inline-flex;
+    font-size: 17px;
 }
 
 .buscar {
